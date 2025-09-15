@@ -145,8 +145,10 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-data/raw/
-data/processed/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
 outputs/
 logs/
 *.csv
